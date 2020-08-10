@@ -1,0 +1,3 @@
+if [ -e ./.leave ] ; then source ./.leave; fi
+cd $1
+if [ -e ./.enter ] ; then source ./.enter; fi
