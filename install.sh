@@ -1,7 +1,13 @@
 cp .bashrc ~
 cp .vimrc ~
-mkdir ~/bin
-mkdir ~/vim
+
+if [ ! -e ~/bin ]; then
+  mkdir ~/bin
+fi
+if [ ! -e ~/vim ]; then
+  mkdir ~/vim
+fi
+
 cp vim/* ~/vim
 cp mcd ~/bin
 
