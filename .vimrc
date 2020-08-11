@@ -4,6 +4,7 @@
 :set ruler
 :set tabstop=4
 :set noexpandtab
+:set autoread
 command FunctionBlock :r ~/vim/FunctionBlock.txt
 command FileHeader :r ~/vim/FileHeader.txt
 command EmptyCFile :r ~/vim/EmptySourceFile.c
