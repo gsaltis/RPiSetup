@@ -125,4 +125,5 @@ if [ "$p" = "" ]; then
 else
   export PS1="ETH $p : " 
 fi
+
 alias mcd='source ~/bin/mcd'
