@@ -1,8 +1,9 @@
-:setlocal noautoindent
-:syntax on
+source $VIMRUNTIME/defaults.vim
+:set cindent
+:set cino=>2
+:set tabstop=4
 :set number
 :set ruler
-:set tabstop=4
 :set noexpandtab
 :set autoread
 command FunctionBlock :r ~/vim/FunctionBlock.txt
@@ -13,5 +14,3 @@ command EmptyStructure :r ~/vim/EmptyStructure.txt
 command EmptyBlock :r ~/vim/EmptyBlock.txt
 command NewFunction :r ~/vim/NewFunction.txt
 command NewJSFunction :r ~/vim/NewJSFunction.txt
-runtime! ftplugin/man.vim
-
