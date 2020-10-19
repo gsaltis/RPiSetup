@@ -1,5 +1,8 @@
-cp .bashrc ~
-cp .vimrc ~
+rm -rf ~/.bashrc
+rm -rf ~/.vimrc
+
+ln -s .vimrc ~/.vimrc
+ln -s .bashrc ~/.bashrc
 
 if [ ! -e ~/bin ]; then
   mkdir ~/bin
