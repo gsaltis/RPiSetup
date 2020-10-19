@@ -10,4 +10,3 @@ fi
 
 cp vim/* ~/vim
 cp mcd ~/bin
-

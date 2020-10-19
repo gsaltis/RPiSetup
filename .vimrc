@@ -14,3 +14,7 @@ command EmptyStructure :r ~/vim/EmptyStructure.txt
 command EmptyBlock :r ~/vim/EmptyBlock.txt
 command NewFunction :r ~/vim/NewFunction.txt
 command NewJSFunction :r ~/vim/NewJSFunction.txt
+
+:let @a='aif (  ) {}kkllll'
+imap <C-O> :aif (  ) {}:kklllll<CR>
+
